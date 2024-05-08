@@ -16,44 +16,63 @@ body {
 main {
     grid-area: main;
     background: #11e369;
+    border: 1px solid rgb(78, 168, 9);
+    border-radius: 5px 5px;
 }
 
 section.footer {
     grid-area: footer;
     background: #8b0909;
+    border: 1px solid rgb(78, 168, 9);
+    border-radius: 5px 5px;
 }
 
 section.Images1 {
     grid-area: Images1;
+    size: 1fr;
     background: #6a4c9a;
+    border: 1px solid rgb(78, 168, 9);
+    border-radius: 5px 5px;
 }
 
 section.Images2 {
     grid-area: Images2;
     background: #504c9a;
+    border: 1px solid rgb(78, 168, 9);
+    border-radius: 5px 5px;
 }
 
 section.Images3 {
     grid-area: Images3;
     background: #4c9a76;
+    border: 1px solid rgb(78, 168, 9);
+    border-radius: 5px 5px;
 }
 
 section.Images4 {
     grid-area: Images4;
     background: #9a614c;
+    border: 1px solid rgb(78, 168, 9);
+    border-radius: 5px 5px;
 }
 
 section.Images5 {
     grid-area: Images5;
     background: #9a4c7f;
+    border: 1px solid rgb(78, 168, 9);
+    border-radius: 5px 5px;
 }
 
 section.Images6 {
     grid-area: Images6;
     background: #9a894c52;
+    border: 1px solid rgb(78, 168, 9);
+    border-radius: 5px 5px;
 }
 
 header {
     grid-area: header;
     background: #dfb5b5;
+    border: 1px solid rgb(78, 168, 9);
+    border-radius: 5px 5px;
 }
