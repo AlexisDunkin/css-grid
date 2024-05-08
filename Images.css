@@ -16,7 +16,7 @@ body {
 main {
     grid-area: main;
     background: #11e369;
-    border: 1px solid rgb(78, 168, 9);
+    border: 1px solid rgb(78, 168, 9); /*goose turd green */
     border-radius: 5px 5px;
 }
 

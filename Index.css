@@ -1,3 +1,12 @@
+@charset "UTF-8";
+
+:root {
+    --primary: rgb(221, 221, 221);
+    --dark: rgb(51, 51, 51);
+    --Light: rgb(255, 255, 255);
+    --shadow: 0 1px 5px rgb(104, 104, 104, 0.0);
+}
+
 body {
     margin: 0;
     height: 100vh;
@@ -6,7 +15,7 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1.2fr 1.5fr;
-    grid-template-rows: 1fr 4fr 3fr 2fr;
+    grid-template-rows: 1fr 2fr 3fr 0.5fr;
     grid-template-areas: "header header header" "main main text" "main main text" "footer footer footer";
     height: 100vh;
     margin: 2em;
@@ -16,19 +25,23 @@ body {
 main {
     grid-area: main;
     background: #11e369;
+    border-radius: 20px 20px 20px 20px;
 }
 
 section.footer {
     grid-area: footer;
     background: #8b0909;
+    border-radius: 20px 20px 20px 20px;
 }
 
-section.text {
-    grid-area: text;
-    background: #6a4c9a;
+section.Text {
+    grid-area: Text;
+    background: #3a0590;
+    border-radius: 20px 20px 20px 20px;
 }
 
 header {
     grid-area: header;
     background: #dfb5b5;
+    border-radius: 20px 20px 20px 20px;
 }
