@@ -12,15 +12,37 @@ body {
     height: 100vh;
 }
 
+.Main-nav ul {
+    display: grid;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.Main-nav a {
+    background: var(--primary);
+    display: block;
+    gap: 20px;
+    border-radius: 500px 500px 500px 500px;
+    text-decoration: none;
+    padding: 0.8rem;
+    text-align: center;
+    color: var(--dark);
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    box-shadow: var(--shadow);
+}
+
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1.2fr 1.5fr;
-    grid-template-rows: 1fr 2fr 3fr 0.5fr;
-    grid-template-areas: "header header header" "main main text" "main main text" "footer footer footer";
+    grid-template-columns: 1fr 0.5fr 2fr;
+    grid-template-rows: 1fr 3fr 3fr 0.5fr;
+    grid-template-areas: "header header header" "main main Text" "main main Text" "footer footer footer";
     height: 100vh;
-    margin: 2em;
+    margin: 0.5em;
 
 }
+
 
 main {
     grid-area: main;

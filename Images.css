@@ -1,6 +1,34 @@
+:root {
+    --primary: rgb(221, 221, 221);
+    --dark: rgb(51, 51, 51);
+    --Light: rgb(255, 255, 255);
+    --shadow: 0 1px 5px rgb(104, 104, 104, 0.0);
+}
+
 body {
     margin: 0;
     height: 100vh;
+}
+
+.Main-nav ul {
+    display: grid;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.Main-nav a {
+    background: var(--primary);
+    display: block;
+    gap: 20px;
+    border-radius: 500px 500px 500px 500px;
+    text-decoration: none;
+    padding: 0.8rem;
+    text-align: center;
+    color: var(--dark);
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    box-shadow: var(--shadow);
 }
 
 .grid-container {
